@@ -1238,7 +1238,6 @@ img.stretch {
 	margin: 0 16px 0;
 	position: relative;
 	color: #fff;
-	opacity: .7;
 }
 
 .genesis-nav-menu li a:hover,
@@ -1499,13 +1498,13 @@ img.stretch {
 }
 
 .nav-secondary .genesis-nav-menu li a {
-	background: rgba(0,0,0,0.15);
 	font-weight: 700;
 	padding: 24px 20px;
 	margin: 0;
 }
 
 .nav-secondary .genesis-nav-menu li.current-menu-item a {
+	background: rgba(0,0,0,0.15);
 	opacity: 1;
 }
 
