@@ -1474,22 +1474,19 @@ img.stretch {
 
 .nav-secondary .genesis-nav-menu {
 	padding: 12px 0;
-	margin-bottom: -16px;
-	/*overflow-x: scroll;*/
-	overflow-y: hidden;
+	overflow: hidden;
 	white-space: nowrap;
 	-webkit-overflow-scrolling: touch;
 }
 
 .win .nav-secondary .genesis-nav-menu {
-	margin-bottom: -24px;
+	/*margin-bottom: -24px;*/
 }
 
 .nav-secondary .genesis-nav-menu li {
 	list-style-type: none;
 	display: inline-block;
 	margin: 0 8px;
-	padding: 4px;
 }
 
 .nav-secondary ul li:first-child {
