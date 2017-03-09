@@ -1503,9 +1503,9 @@ img.stretch {
 }
 
 .nav-secondary .genesis-nav-menu li a {
+	background: rgba(0,0,0,0.15);
 	font-weight: 700;
-	opacity: .5;
-	padding: 20px 0;
+	padding: 24px 20px;
 	margin: 0;
 }
 
@@ -1513,7 +1513,7 @@ img.stretch {
 	opacity: 1;
 }
 
-.nav-secondary .genesis-nav-menu li.current-menu-item a:after {
+/*.nav-secondary .genesis-nav-menu li.current-menu-item a:after {
 	content: " ";
 	border-bottom: 5px solid #333;
 	width: 100%;
@@ -1521,7 +1521,7 @@ img.stretch {
 	bottom: 0;
 	left: 0;
 	right: 0;
-}
+}*/
 
 @media only screen and (min-width: 800px) {
 	.nav-secondary {
