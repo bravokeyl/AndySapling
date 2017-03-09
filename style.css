@@ -2326,6 +2326,8 @@ p.comment-form-comment {
   letter-spacing: 2px;
   text-transform: uppercase;
   padding: 0px 10px;
+	border-right: 1px solid rgba(255,255,255,0.85);
+	line-height: 1;
 }
 .bk-footer .contact {
 	color: rgba(255, 255, 255, 0.38);
