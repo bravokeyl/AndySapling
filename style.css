@@ -257,6 +257,10 @@ hr,
 .page-template-page_blog-php .entry-title {
 	font-weight: 500;
 }
+.page-template-page_blog-php .entry,
+.page-template-page_blog-php .entry p {
+	font-size: 15px;
+}
 @media only screen and (min-width: 1024px) {
 
 	body {
