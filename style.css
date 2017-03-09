@@ -2339,3 +2339,7 @@ p.comment-form-comment {
 .bk-footer .contact {
 	color: rgba(255, 255, 255, 0.38);
 }
+.bk-footer .contact span {
+	display: inline-block;
+	padding-right: 15px;
+}
