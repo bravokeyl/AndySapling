@@ -262,7 +262,7 @@ genesis_register_sidebar( array(
 ) );
 
 //* Add support for 4-column footer widget
-add_theme_support( 'genesis-footer-widgets', 4 );
+add_theme_support( 'genesis-footer-widgets', 0 );
 
 
 /* ==========================================================================
