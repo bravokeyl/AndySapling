@@ -261,6 +261,10 @@ hr,
 .page-template-page_blog-php .entry p {
 	font-size: 15px;
 }
+.page-template-page_blog-php img.alignleft.entry-image,
+.page-template-page_blog-php img.alignright.entry-image {
+	margin-bottom: 24px;
+}
 @media only screen and (min-width: 1024px) {
 
 	body {
