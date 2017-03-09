@@ -1528,7 +1528,7 @@ img.stretch {
 @media only screen and (min-width: 1023px) {
 
 	.nav-secondary .genesis-nav-menu li {
-		margin: 0 12px;
+		margin: 0px;
 	}
 
 	.nav-secondary .genesis-nav-menu li a {
