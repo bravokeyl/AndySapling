@@ -2321,6 +2321,11 @@ p.comment-form-comment {
 
 .bk-footer ul li {
 	display: inline-block;
+	font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  padding: 0px 10px;
 }
 .bk-footer .contact {
 	color: rgba(255, 255, 255, 0.38);
