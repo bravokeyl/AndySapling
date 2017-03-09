@@ -1595,6 +1595,8 @@ img.stretch {
 .pagination {
 	margin-top: 40px;
 	text-align: center;
+	clear: both;
+	overflow: hidden;
 }
 
 .pagination ul {
