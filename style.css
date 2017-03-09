@@ -2234,7 +2234,7 @@ p.comment-form-comment {
 	.before-footer .enews form input {
 		margin: 0 10px;
 		width: calc( 25% - 20px );
-		float: left;
+		/*float: left;*/
 	}
 }
 
