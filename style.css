@@ -254,16 +254,21 @@ hr,
 	margin: 0 0 40px;
 	padding: 40px 0 0;
 }
-.page-template-page_blog-php .entry-title {
+.page-template-page_blog-php .entry-title,
+.archive .entry-title {
 	font-weight: 500;
 }
 .page-template-page_blog-php .entry,
-.page-template-page_blog-php .entry p {
+.page-template-page_blog-php .entry p,
+.archive .entry,
+.archive .entry p {
 	font-size: 15px;
   line-height: 1.625;
 }
 .page-template-page_blog-php img.alignleft.entry-image,
-.page-template-page_blog-php img.alignright.entry-image {
+.page-template-page_blog-php img.alignright.entry-image,
+.archive img.alignleft.entry-image,
+.archive img.alignright.entry-image {
 	margin-bottom: 24px;
 }
 @media only screen and (min-width: 1024px) {
