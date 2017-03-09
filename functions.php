@@ -97,6 +97,7 @@ if ( $header_color === 'white' ) {
 
 //* Add Image Sizes
 add_image_size( 'showcase_featured_posts', 600, 400, TRUE );
+add_image_size( 'sapling_resource', 300, 200);
 add_image_size( 'showcase_archive', 900, 500, TRUE );
 add_image_size( 'showcase_team_thumb', 600, 800, TRUE );
 add_image_size( 'showcase_hero', 1920, 960, TRUE );
