@@ -286,7 +286,8 @@ hr,
 	.entry-title {
 		font-size: 50px;
 	}
-	.page-template-page_blog-php .entry-title {
+	.page-template-page_blog-php .entry-title,
+	.archive .entry-title {
 		font-size: 19px;
 	}
 	h3 {
