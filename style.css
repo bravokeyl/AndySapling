@@ -254,7 +254,9 @@ hr,
 	margin: 0 0 40px;
 	padding: 40px 0 0;
 }
-
+.page-template-page_blog-php .entry-title {
+	font-weight: 500;
+}
 @media only screen and (min-width: 1024px) {
 
 	body {
