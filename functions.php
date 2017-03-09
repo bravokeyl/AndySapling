@@ -337,3 +337,5 @@ add_filter( 'get_the_author_genesis_author_box_single', '__return_true' );
 function showcase_bar_to_br( $content ) {
 	return str_replace( ' | ', '<br class="mobile-hide">', $content );
 }
+
+remove_action('genesis_footer','genesis_do_footer');
