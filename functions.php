@@ -255,8 +255,14 @@ function showcase_before_footer_widget_area() {
 	}
 }
 
+genesis_register_sidebar( array(
+	'id'          => 'bk-footer',
+	'name'        => __( 'Footer', 'showcase' ),
+	'description' => __( 'This is a widget area on every page.', 'showcase' ),
+) );
+
 //* Add support for 4-column footer widget
-add_theme_support( 'genesis-footer-widgets', 1 );
+add_theme_support( 'genesis-footer-widgets', 4 );
 
 
 /* ==========================================================================
@@ -341,5 +347,8 @@ function showcase_bar_to_br( $content ) {
 remove_action( 'genesis_footer','genesis_do_footer' );
 add_action( 'genesis_footer', 'bk_sapling_footer' );
 function bk_sapling_footer(){
-
+	genesis_widget_area( 'bk-footer', array(
+		'before' => '<div id="bk-footer" class="bk-footer widget-area"><div class="wrap">',
+		'after'  => '</div></div>',
+	) );
 }
