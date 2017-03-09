@@ -101,7 +101,7 @@ function showcase_closing_page_header() {
 
 					?>
 				</div>
-				<?php genesis_do_subnav(); ?>
+				<?php //genesis_do_subnav(); ?>
 			</div>
 		</div>
 
