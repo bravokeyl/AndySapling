@@ -1503,7 +1503,9 @@ img.stretch {
 	margin: 0;
 }
 
-.nav-secondary .genesis-nav-menu li.current-menu-item a {
+.nav-secondary .genesis-nav-menu li.current-menu-item a,
+.nav-secondary .genesis-nav-menu li.current-menu-item a:hover,
+.nav-secondary .genesis-nav-menu li.current-menu-item a:focus {
 	background: rgba(0,0,0,0.15);
 	opacity: 1;
 }
