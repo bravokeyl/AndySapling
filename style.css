@@ -2329,6 +2329,9 @@ p.comment-form-comment {
 	border-right: 1px solid rgba(255,255,255,0.85);
 	line-height: 1;
 }
+.bk-footer ul li:last-child {
+  border: none;
+}
 .bk-footer .contact {
 	color: rgba(255, 255, 255, 0.38);
 }
