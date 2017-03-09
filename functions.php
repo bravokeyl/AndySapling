@@ -352,3 +352,4 @@ function bk_sapling_footer(){
 		'after'  => '</div></div>',
 	) );
 }
+remove_action('genesis_after_header','genesis_do_subnav');
