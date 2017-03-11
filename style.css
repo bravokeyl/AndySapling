@@ -2409,3 +2409,7 @@ p.comment-form-comment {
 	color: #fff;
 	background-color: #414B55;
 }
+
+.on-boarding-page .site-inner > .wrap {
+	max-width: 100%;
+}
