@@ -301,7 +301,7 @@ function showcase_content_limit_read_more_markup( $output, $content, $link ) {
 //* Modify the Genesis content limit read more link
 add_filter( 'get_the_content_more_link', 'showcase_read_more_link' );
 function showcase_read_more_link() {
-	return '<a class="more-link" href="' . get_permalink() . '">Continue Reading</a>';
+	return '<a class="more-link" href="' . get_permalink() . '">[Read more...]</a>';
 }
 
 //* Customize author box title
