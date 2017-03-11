@@ -2510,3 +2510,57 @@ p.comment-form-comment {
   background: url(images/layer-three.png) no-repeat center top / 100% auto;
   color: #666;
 }
+
+.hs-inbound-sales__diagram svg {
+    max-width: 100%;
+}
+
+.hs-inbound-sales__diagram .b,
+.hs-inbound-sales__diagram .d {
+    fill: #fff;
+}
+
+.hs-inbound-sales__diagram .a {
+    fill: #f7751f;
+}
+.hs-inbound-sales__diagram .b {
+    font-size: 19.75px;
+    font-weight: 700;
+}
+
+.hs-inbound-sales__diagram .c {
+    fill: hsla(0,0%,100%,0);
+    stroke: #fff;
+    stroke-miterlimit: 10;
+    stroke-width: 2px;
+    -webkit-transition: fill .35s ease;
+    transition: fill .35s ease;
+}
+
+.hs-inbound-sales__diagram .c:hover {
+    fill: hsla(0,0%,100%,.3);
+}
+
+.hovered {
+    display: block;
+}
+.hide-not-hovered {
+    display: none;
+}
+.context {
+  /*background-color: rgba(51,51,51,0.75);*/
+  margin: 120px 40px 0 0;
+  padding: 40px;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: normal;
+
+  -moz-transition: fill .35s ease;
+  -ms-transition: fill .35s ease;
+  -o-transition: fill .35s ease;
+  -webkit-transition: fill .35s ease;
+  transition: fill .35s ease;
+}
+.context h2 {
+    text-transform: capitalize;
+}
