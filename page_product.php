@@ -33,8 +33,20 @@ function showcase_add_body_class( $classes ) {
 function bk_product_page_widgets(){
   echo '<h2 class="screen-reader-text">' . __( 'Main Content', 'showcase' ) . '</h2>';
 
-  genesis_widget_area( 'product-page', array(
-    'before' => '<div id="product-page" class="product-page front-page-2 flexible-widget-area"><div class="wrap"><div class="flexible-widgets widget-area' . showcase_halves_widget_area_class( 'product-page' ) . '">',
+  genesis_widget_area( 'product-page-1', array(
+    'before' => '<div id="product-page-1" class="product-page-1 front-page-2 flexible-widget-area"><div class="wrap"><div class="flexible-widgets widget-area' . showcase_halves_widget_area_class( 'product-page' ) . '">',
+    'after'  => '</div></div></div>',
+  ) );
+  genesis_widget_area( 'product-page-2', array(
+    'before' => '<div id="product-page-2" class="product-page-2 front-page-2 flexible-widget-area"><div class="wrap"><div class="flexible-widgets widget-area' . showcase_halves_widget_area_class( 'product-page' ) . '">',
+    'after'  => '</div></div></div>',
+  ) );
+  genesis_widget_area( 'product-page-3', array(
+    'before' => '<div id="product-page-3" class="product-page-3 front-page-2 flexible-widget-area"><div class="wrap"><div class="flexible-widgets widget-area' . showcase_halves_widget_area_class( 'product-page' ) . '">',
+    'after'  => '</div></div></div>',
+  ) );
+  genesis_widget_area( 'product-page-4', array(
+    'before' => '<div id="product-page-4" class="product-page-4 front-page-2 flexible-widget-area"><div class="wrap"><div class="flexible-widgets widget-area' . showcase_halves_widget_area_class( 'product-page' ) . '">',
     'after'  => '</div></div></div>',
   ) );
 }

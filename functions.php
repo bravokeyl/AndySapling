@@ -251,9 +251,24 @@ genesis_register_sidebar( array(
 ) );
 
 genesis_register_sidebar( array(
-	'id'          => 'product-page',
-	'name'        => __( 'Product page', 'showcase' ),
-	'description' => __( 'This is the section on the product page.', 'showcase' ),
+	'id'          => 'product-page-1',
+	'name'        => __( 'Product page 1', 'showcase' ),
+	'description' => __( 'This is the first section on the product page.', 'showcase' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'product-page-2',
+	'name'        => __( 'Product page 2', 'showcase' ),
+	'description' => __( 'This is the second section on the product page.', 'showcase' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'product-page-3',
+	'name'        => __( 'Product page 3', 'showcase' ),
+	'description' => __( 'This is the third section on the product page.', 'showcase' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'product-page-4',
+	'name'        => __( 'Product page 4', 'showcase' ),
+	'description' => __( 'This is the fourth section on the product page.', 'showcase' ),
 ) );
 
 //* Add the Before Footer Widget Area
