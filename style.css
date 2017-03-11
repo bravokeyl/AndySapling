@@ -2587,12 +2587,12 @@ hr.line {
     float: left;
     width: 100%;
 }
-.on-boading-page .entry .entry-content {
+.on-boarding-page .entry .entry-content {
 	padding: 80px 40px 40px;
 	background-color: #fff;
 }
-.on-boading-page .entry .entry-content h2,
-.on-boading-page-3 h2 {
+.on-boarding-page .entry .entry-content h2,
+.on-boarding-page-3 h2 {
 	color: #52b3bd;
 	margin-bottom: 60px;
 	border-bottom: 2px solid #52b3bd;
@@ -2604,7 +2604,7 @@ hr.line {
 	display: table;
 	text-transform: uppercase;
 }
-.on-boading-page .entry .entry-content h4 {
+.on-boarding-page .entry .entry-content h4 {
 	color: #399CA9;
 	text-transform: uppercase;
 	font-weight: 500;

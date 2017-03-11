@@ -19,7 +19,7 @@ add_theme_support( 'genesis-structural-wraps', array( 'header', 'footer-widgets'
 add_filter( 'body_class', 'bk_add_bclass' );
 function bk_add_bclass( $classes ) {
 
-	$classes[] = 'full-width on-boading-page';
+	$classes[] = 'full-width on-boarding-page';
 	return $classes;
 
 }
