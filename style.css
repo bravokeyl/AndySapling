@@ -2704,6 +2704,13 @@ hr.line {
 	.on-boarding-page-1 {
 	    padding: 40px 0;
 	}
+	.on-boarding-page .entry .entry-content h2,
+	.on-boarding-page-3 h2 {
+		margin-bottom: 24px;
+		line-height: 1.4;
+		font-size: 30px;
+		letter-spacing: 3px;
+	}
 }
 @media only screen and (max-width: 480px){
 	.on-boarding-page .triangle-wrap > h4,
@@ -2754,8 +2761,17 @@ hr.line {
     .on-boarding-page .entry-content ul {
         margin-left: 12px;
     }
-		
+
     .triangle-wrap {
         margin-bottom: 24px;
     }
+		.on-boarding-page .entry .entry-content h2,
+		.on-boarding-page-3 h2 {
+			padding: 5% 0;
+			margin-bottom: 24px;
+			line-height: 1.4;
+			font-size: 20px;
+			letter-spacing: 3px;
+			font-weight: 400;
+		}
 }
