@@ -283,7 +283,7 @@ add_action( 'genesis_entry_header', 'genesis_post_info', 8 );
 add_filter( 'genesis_post_info', 'showcase_entry_meta_header' );
 function showcase_entry_meta_header($post_info) {
 
-	$post_info = '[post_categories before="" after=""]';
+	$post_info = '[post_categories before="" after="" sep=""]';
 	return $post_info;
 
 }
