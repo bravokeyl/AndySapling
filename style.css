@@ -2578,15 +2578,25 @@ p.comment-form-comment {
 .context h2 {
     text-transform: capitalize;
 }
+hr.line {
+    border: 0;
+    border-collapse: collapse;
+    border-top: 4px solid #eee;
+    clear: both;
+    margin: 40px 0 80px;
+    float: left;
+    width: 100%;
+}
 .on-boading-page .entry .entry-content {
 	padding: 80px 40px 40px;
 	background-color: #fff;
 }
 .on-boading-page .entry .entry-content h2 {
+	color: #52b3bd;
 	margin-bottom: 60px;
-	border-bottom: 2px solid #52b3bd;;
+	border-bottom: 2px solid #52b3bd;
 	font-size: 32px;
-	border-top: 2px solid #52b3bd;;
+	border-top: 2px solid #52b3bd;
 	padding: 20px 40px;
 	font-weight: 300;
 	letter-spacing: 4px;
