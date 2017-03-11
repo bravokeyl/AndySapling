@@ -892,14 +892,16 @@ img.stretch {
 	.two-fourths,
 	.two-fifths,
 	.two-sixths,
-	.two-thirds {
+	.two-thirds,
+	.on-boarding-page-1 .widget {
 		float: left;
 		margin-left: 3.448275862069%;
 	}
 
 	.one-half,
 	.three-sixths,
-	.two-fourths {
+	.two-fourths,
+	.on-boarding-page-1 .widget {
 		width: 48.275862068966%;
 	}
 
@@ -2412,4 +2414,8 @@ p.comment-form-comment {
 
 .on-boarding-page .site-inner > .wrap {
 	max-width: 100%;
+}
+.on-boarding-page-1 {
+	background: #eee;
+  padding: 80px 40px 40px;
 }
