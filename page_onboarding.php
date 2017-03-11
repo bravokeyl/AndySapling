@@ -36,6 +36,8 @@ function bk_onboarding_page_widgets(){
     'after'  => '</div></div></div>',
   ) );
 }
+
+add_action('genesis_after_entry','bk_bottom_page_widgets');
 function bk_bottom_page_widgets() {
 	 genesis_widget_area( 'on-boarding-page-3', array(
      'before' => '<div id="on-boarding-page-3" class="on-boarding-page-3 front-page-2 flexible-widget-area"><div class="wrap"><div class="flexible-widgets widget-area">',
