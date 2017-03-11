@@ -2705,3 +2705,57 @@ hr.line {
 	    padding: 40px 0;
 	}
 }
+@media only screen and (max-width: 480px){
+	.on-boarding-page .triangle-wrap > h4,
+  .on-boarding-page .triangle-wrap .layer > h4 {
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 12px;
+        letter-spacing: 2px;
+        font-weight: 200;
+    }
+
+    .on-boarding-page h1.entry-title {
+        font-size: 30px;
+        letter-spacing: 4px;
+    }
+
+    .triangle-wrap .layer {
+        min-height: 0;
+    }
+
+    .triangle-wrap .one.layer > h4 {
+        padding-top: 70px;
+        padding-bottom: 20px;
+    }
+
+    .triangle-wrap .two.layer > h4 {
+        padding-top: 25px;
+        padding-bottom: 24px;
+    }
+
+    .triangle-wrap .three.layer > h4 {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .on-boarding-page .widget{
+        padding: 5% 20px;
+    }
+
+    .on-boarding-page .widget > h4 {
+        font-size: 20px;
+    }
+
+    .on-boarding-page .entry-content ul > li {
+        margin-bottom: 18px;
+    }
+
+    .on-boarding-page .entry-content ul {
+        margin-left: 12px;
+    }
+		
+    .triangle-wrap {
+        margin-bottom: 24px;
+    }
+}
