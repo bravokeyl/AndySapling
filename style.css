@@ -2579,3 +2579,7 @@ p.comment-form-comment {
 .context h2 {
     text-transform: capitalize;
 }
+.on-boading-page .entry .entry-content {
+	padding: 80px 40px 40px;
+	background-color: #fff;
+}
