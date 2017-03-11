@@ -2674,3 +2674,15 @@ hr.line {
     color: #888;
     font-style: italic;
 }
+.on-boarding-page-4 {
+	color: #399CA9;
+	margin-bottom: 60px;
+	border-bottom: 2px solid currentColor;
+	font-size: 32px;
+	border-top: 2px solid currentColor;
+	padding: 20px 40px;
+	font-weight: 300;
+	letter-spacing: 4px;
+	display: table;
+	text-transform: uppercase;
+}
