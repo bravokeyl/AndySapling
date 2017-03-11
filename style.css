@@ -2591,7 +2591,8 @@ hr.line {
 	padding: 80px 40px 40px;
 	background-color: #fff;
 }
-.on-boading-page .entry .entry-content h2 {
+.on-boading-page .entry .entry-content h2,
+.on-boading-page-3 h2 {
 	color: #52b3bd;
 	margin-bottom: 60px;
 	border-bottom: 2px solid #52b3bd;
