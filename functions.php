@@ -250,6 +250,12 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is a widget area right before the footer on every page.', 'showcase' ),
 ) );
 
+genesis_register_sidebar( array(
+	'id'          => 'product-page',
+	'name'        => __( 'Product page', 'showcase' ),
+	'description' => __( 'This is the section on the product page.', 'showcase' ),
+) );
+
 //* Add the Before Footer Widget Area
 add_action( 'genesis_before_footer', 'showcase_before_footer_widget_area', 5 );
 function showcase_before_footer_widget_area() {
