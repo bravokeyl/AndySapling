@@ -292,7 +292,7 @@ function showcase_entry_meta_header($post_info) {
 add_filter( 'get_the_content_limit', 'showcase_content_limit_read_more_markup', 10, 3 );
 function showcase_content_limit_read_more_markup( $output, $content, $link ) {
 
-	$output = sprintf( '<p>%s &#x02026;</p><p>%s</p>', $content, str_replace( '&#x02026;', '', $link ) );
+	$output = sprintf( '<p>%s &#x02026;%s</p>', $content, str_replace( '&#x02026;', '', $link ) );
 
 	return $output;
 
