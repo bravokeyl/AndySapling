@@ -1491,7 +1491,7 @@ img.stretch {
 }
 
 .nav-secondary .genesis-nav-menu {
-	overflow-x: scroll;
+	/*overflow-x: scroll;*/
   overflow-y: hidden;
   white-space: nowrap;
 	-webkit-overflow-scrolling: touch;
