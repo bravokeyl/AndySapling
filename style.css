@@ -2701,7 +2701,9 @@ hr.line {
 	}
 }
 @media only screen and (max-width: 800px) {
-	.on-boarding-page-1 {
+	.on-boarding-page-1,
+	.on-boarding-page-4,
+	.on-boarding-page-3 {
 	    padding: 40px 0;
 	}
 	.on-boarding-page-2 {
@@ -2713,6 +2715,11 @@ hr.line {
 		line-height: 1.4;
 		font-size: 30px;
 		letter-spacing: 3px;
+	}
+	.context {
+    margin: 0;
+    padding: 5%;
+    text-align: center;
 	}
 }
 @media only screen and (max-width: 480px){
