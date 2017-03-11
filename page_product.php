@@ -3,6 +3,12 @@
 Template Name: Product
 */
 
+add_action( 'wp_enqueue_scripts', 'bk_enqueue_digital_script' );
+function bk_enqueue_digital_script() {
+
+  wp_enqueue_style( 'bk-front-styles', get_stylesheet_directory_uri() . '/style-front.css', array(), CHILD_THEME_VERSION );
+
+}
 //* Force full-width-content layout
 add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_content' );
 
