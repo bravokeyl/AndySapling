@@ -28,7 +28,7 @@ function bk_product_page_widgets(){
   echo '<h2 class="screen-reader-text">' . __( 'Main Content', 'showcase' ) . '</h2>';
 
   genesis_widget_area( 'product-page', array(
-    'before' => '<div id="product-page" class="product-page flexible-widget-area"><div class="wrap"><div class="flexible-widgets widget-area' . showcase_halves_widget_area_class( 'product-page' ) . '">',
+    'before' => '<div id="product-page" class="product-page front-page-2 flexible-widget-area"><div class="wrap"><div class="flexible-widgets widget-area' . showcase_halves_widget_area_class( 'product-page' ) . '">',
     'after'  => '</div></div></div>',
   ) );
 }
