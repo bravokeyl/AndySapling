@@ -893,7 +893,8 @@ img.stretch {
 	.two-fifths,
 	.two-sixths,
 	.two-thirds,
-	.on-boarding-page-1 .widget {
+	.on-boarding-page-1 .widget,
+	.on-boarding-page-2 .widget {
 		float: left;
 		margin-left: 3.448275862069%;
 	}
@@ -901,7 +902,8 @@ img.stretch {
 	.one-half,
 	.three-sixths,
 	.two-fourths,
-	.on-boarding-page-1 .widget {
+	.on-boarding-page-1 .widget,
+	.on-boarding-page-2 .widget {
 		width: 48.275862068966%;
 	}
 
@@ -2419,7 +2421,8 @@ p.comment-form-comment {
 	background: #eee;
   padding: 80px 40px 40px;
 }
-.on-boarding-page-1 .widget:first-child {
+.on-boarding-page-1 .widget:first-child,
+.on-boarding-page-2 .widget:first-child, {
 	margin-left: 0px;
 }
 .on-boarding-page-1 .widget {
