@@ -2675,6 +2675,7 @@ hr.line {
     font-style: italic;
 }
 .on-boarding-page-4 h2 {
+	text-align: center;
 	color: #399CA9;
 	margin-bottom: 60px;
 	border-bottom: 2px solid currentColor;
