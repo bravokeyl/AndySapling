@@ -2397,7 +2397,8 @@ p.comment-form-comment {
 .entry-meta .entry-categories a:hover {
 	text-decoration: none;
 }
-.page-template-page_blog .entry {
+.page-template-page_blog .entry,
+.archive .entry {
 	border: none;
 	padding: inherit;
 	margin-bottom: 0px;
