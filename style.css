@@ -2650,3 +2650,27 @@ hr.line {
 	padding: 80px 40px 40px;
 	background-color: #fff;
 }
+.member-item {
+    margin-top: 24px;
+    text-align: center;
+}
+.member-item img {
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -khtml-border-radius: 50%;
+
+    border-radius: 50%;
+    border: 8px solid #eee;
+}
+.member-item .member-name,
+.member-item .company-role {
+	   font-weight: 500;
+}
+.member-item .member-name {
+    color: #414b55;
+    margin-bottom: 6px;
+}
+.member-item .company-role {
+    color: #888;
+    font-style: italic;
+}
