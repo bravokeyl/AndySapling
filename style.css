@@ -2651,28 +2651,26 @@ hr.line {
 	background-color: #fff;
 }
 .member-item {
-    margin-top: 24px;
-    text-align: center;
+  margin-top: 24px;
+  text-align: center;
 }
 .member-item img {
-    -moz-border-radius: 50%;
-    -webkit-border-radius: 50%;
-    -khtml-border-radius: 50%;
-
-    border-radius: 50%;
-    border: 8px solid #eee;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -khtml-border-radius: 50%;
+  border-radius: 50%;
+  border: 8px solid #eee;
 }
 .member-item .member-name,
 .member-item .company-role {
-	   font-weight: 500;
+ 	font-weight: 500;
 }
 .member-item .member-name {
-    color: #414b55;
-    margin-bottom: 6px;
+  margin-bottom: 6px;
 }
 .member-item .company-role {
-    color: #888;
-    font-style: italic;
+  color: #888;
+  font-style: italic;
 }
 .on-boarding-page-4 h2 {
 	text-align: center;
@@ -2688,9 +2686,9 @@ hr.line {
 	margin: 0 auto 40px;
 }
 .on-boarding-page-4 h4 {
-    color: #399CA9;
-    text-transform: uppercase;
-    font-weight: 500;
-    font-size: 26px;
-    letter-spacing: 2px;
+  color: #399CA9;
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 26px;
+  letter-spacing: 2px;
 }
