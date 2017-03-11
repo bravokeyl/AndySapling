@@ -2447,6 +2447,59 @@ p.comment-form-comment {
 	padding: 80px 40px 40px;
   background-color: #fff;
 }
+.entry-content .triangle-wrap .three.layer > h4 {
+    color: #444;
+}
+
+.triangle-wrap {
+    width: 100%;
+}
+
+.triangle-wrap .layer {
+  text-transform: capitalize;
+  text-align: center;
+  font-size: 16px;
+  line-height: normal;
+  width: 100%;
+  min-height: 127px;
+
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.entry-content .triangle-wrap > h4,
+.entry-content .triangle-wrap .layer > h4 {
+  color: #fff;
+  text-transform: capitalize;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 21px;
+  margin-bottom: 0;
+  padding-bottom: 0;
+  text-align: center;
+  letter-spacing: 2px;
+  line-height: 1.2;
+}
+
+.triangle-wrap .layer:hover {
+  opacity: 0.85;
+  cursor: pointer;
+}
+
+.entry-content .triangle-wrap .one.layer > h4 {
+  padding: 133px 0 50px;
+}
+
+.entry-content .triangle-wrap .two.layer > h4 {
+  padding: 50px 145px 53px;
+}
+
+.entry-content .triangle-wrap .three.layer > h4 {
+  padding: 40px 200px;
+}
 .one.layer {
   background: url(images/layer-one.png) no-repeat center bottom / 100% auto;
 }
