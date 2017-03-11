@@ -894,7 +894,8 @@ img.stretch {
 	.two-sixths,
 	.two-thirds,
 	.on-boarding-page-1 .widget,
-	.on-boarding-page-2 .widget {
+	.on-boarding-page-2 .widget,
+	.on-boarding-page-3 .widget {
 		float: left;
 		margin-left: 3.448275862069%;
 	}
@@ -903,10 +904,13 @@ img.stretch {
 	.three-sixths,
 	.two-fourths,
 	.on-boarding-page-1 .widget,
-	.on-boarding-page-2 .widget {
+	.on-boarding-page-2 .widget,
+	.on-boarding-page-3 .widget {
 		width: 48.275862068966%;
 	}
-
+	.on-boarding-page-3 .widget:first-child {
+		width: 100%;
+	}
 	.one-third,
 	.two-sixths {
 		width: 31.034482758621%;
