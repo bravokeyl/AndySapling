@@ -2447,3 +2447,13 @@ p.comment-form-comment {
 	padding: 80px 40px 40px;
   background-color: #fff;
 }
+.one.layer {
+  background: url(images/layer-one.png) no-repeat center bottom / 100% auto;
+}
+.two.layer {
+  background: url(images/layer-two.png) no-repeat center top / 100% auto;
+}
+.three.layer {
+  background: url(images/layer-three.png) no-repeat center top / 100% auto;
+  color: #666;
+}
