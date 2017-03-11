@@ -2620,3 +2620,7 @@ hr.line {
 	background-color: #2B5970;
   color: #fff;
 }
+.on-boarding-page-3 .widget:first-child,
+.on-boarding-page-3 .widget:nth-child(2){
+	margin-left: 0px;
+}
