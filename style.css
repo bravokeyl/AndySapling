@@ -2399,6 +2399,6 @@ p.comment-form-comment {
 }
 .page-template-page_blog .entry {
 	border: none;
-	padding: inherit 0px;
+	padding: inherit;
 	margin-bottom: 0px;
 }
