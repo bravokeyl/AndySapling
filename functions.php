@@ -271,6 +271,28 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the fourth section on the product page.', 'showcase' ),
 ) );
 
+
+genesis_register_sidebar( array(
+	'id'          => 'on-boarding-page-page-1',
+	'name'        => __( 'Onboarding page 1', 'showcase' ),
+	'description' => __( 'This is the first section on the Onboarding page.', 'showcase' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'on-boarding-page-page-2',
+	'name'        => __( 'Onboarding page 2', 'showcase' ),
+	'description' => __( 'This is the second section on the Onboarding page.', 'showcase' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'on-boarding-page-page-3',
+	'name'        => __( 'Onboarding page 3', 'showcase' ),
+	'description' => __( 'This is the third section on the Onboarding page.', 'showcase' ),
+) );
+genesis_register_sidebar( array(
+	'id'          => 'on-boarding-page-page-4',
+	'name'        => __( 'Onboarding page 4', 'showcase' ),
+	'description' => __( 'This is the fourth section on the Onboarding page.', 'showcase' ),
+) );
+
 //* Add the Before Footer Widget Area
 add_action( 'genesis_before_footer', 'showcase_before_footer_widget_area', 5 );
 function showcase_before_footer_widget_area() {
