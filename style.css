@@ -2629,3 +2629,9 @@ hr.line {
 .on-boarding-page-3 .widget:nth-child(2){
 	margin-left: 0px;
 }
+.on-boarding-page-3 .widget:nth-child(3) {
+	padding: 40px;
+	border: 6px solid #eee;
+	background: #fff;
+	color: #333;
+}
