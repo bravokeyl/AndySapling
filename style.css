@@ -2603,3 +2603,10 @@ hr.line {
 	display: table;
 	text-transform: uppercase;
 }
+.on-boading-page .entry .entry-content h2 {
+	color: #399CA9;
+	text-transform: uppercase;
+	font-weight: 500;
+	font-size: 26px;
+	letter-spacing: 2px;
+}
