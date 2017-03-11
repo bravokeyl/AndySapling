@@ -15,6 +15,12 @@ add_filter( 'genesis_pre_get_option_site_layout', '__genesis_return_full_width_c
 add_action( 'genesis_after_header', 'bk_product_page_widgets' );
 //* Remove the default Genesis loop
 remove_action( 'genesis_loop', 'genesis_do_loop' );
+//* Remove .site-inner
+add_filter( 'genesis_markup_site-inner', '__return_null' );
+add_filter( 'genesis_markup_content-sidebar-wrap_output', '__return_false' );
+add_filter( 'genesis_markup_content', '__return_null' );
+add_theme_support( 'genesis-structural-wraps', array( 'header', 'footer-widgets', 'footer' ) );
+
 //* Add full-width body class to the head
 add_filter( 'body_class', 'showcase_add_body_class' );
 function showcase_add_body_class( $classes ) {
