@@ -2439,3 +2439,11 @@ p.comment-form-comment {
 	text-align: center;
 	line-height: 1.4;
 }
+.on-boarding-page-2 {
+	background: url(images/hero-img.jpg) no-repeat 50% 50% fixed transparent;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+	padding: 80px 40px 40px;
+  background-color: #fff;
+}
