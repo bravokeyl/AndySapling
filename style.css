@@ -2422,7 +2422,7 @@ p.comment-form-comment {
   padding: 80px 40px 40px;
 }
 .on-boarding-page-1 .widget:first-child,
-.on-boarding-page-2 .widget:first-child, {
+.on-boarding-page-2 .widget:first-child {
 	margin-left: 0px;
 }
 .on-boarding-page-1 .widget {
