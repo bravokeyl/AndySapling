@@ -2361,6 +2361,9 @@ p.comment-form-comment {
 	display: inline-block;
 	padding-right: 15px;
 }
+.front-page-logos {
+	padding: 24px 10px;
+}
 .client-logos {
 	align-items: center;
   display: flex;

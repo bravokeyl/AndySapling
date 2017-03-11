@@ -61,8 +61,8 @@ function showcase_front_page_widgets() {
 	echo '<h2 class="screen-reader-text">' . __( 'Main Content', 'showcase' ) . '</h2>';
 
 	genesis_widget_area( 'front-page-logos', array(
-		'before' => '<div id="front-page-logos" class="front-page-logos flexible-widget-area"><div class="wrap"><div class="flexible-widgets widget-area' . showcase_widget_area_class( 'front-page-logos' ) . '">',
-		'after'  => '</div></div></div>',
+		'before' => '<div id="front-page-logos" class="front-page-logos"><div class="wrap">',
+		'after'  => '</div></div>',
 	) );
 
 	genesis_widget_area( 'front-page-1', array(
