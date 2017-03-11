@@ -220,6 +220,11 @@ genesis_register_sidebar( array(
 	'description' => __( 'This is the page header section on the front page.', 'showcase' ),
 ) );
 genesis_register_sidebar( array(
+	'id'          => 'front-page-logos',
+	'name'        => __( 'Client Logos Section', 'showcase' ),
+	'description' => __( 'This is the client logos section on the front page.', 'showcase' ),
+) );
+genesis_register_sidebar( array(
 	'id'          => 'front-page-1',
 	'name'        => __( 'Front Page 1', 'showcase' ),
 	'description' => __( 'This is the 1st section on the front page.', 'showcase' ),
