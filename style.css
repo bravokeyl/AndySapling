@@ -2403,3 +2403,8 @@ p.comment-form-comment {
 	padding: inherit;
 	margin-bottom: 0px;
 }
+.product-page-1.front-page-2,
+.product-page-3.front-page-2 {
+	color: #fff;
+	background-color: #414B55;
+}
