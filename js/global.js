@@ -37,4 +37,29 @@ jQuery( function ( $ ) {
 
 	});
 
+
+	$( '.one.layer h4' ).hover( function(){
+		$( '.text-one' ).toggleClass( 'hovered hide-not-hovered' );
+		$( '.context-default' ).toggleClass( 'hide-not-hovered hovered' );
+	},function(){
+			$( '.text-one' ).toggleClass( 'hide-not-hovered hovered' );
+			$( '.context-default' ).toggleClass( 'hovered hide-not-hovered' );
+	});
+
+	$( '.two.layer h4' ).hover( function(){
+			$( '.text-two' ).toggleClass( 'hovered hide-not-hovered' );
+			$( '.context-default' ).toggleClass( 'hide-not-hovered hovered' );
+	},function(){
+			$( '.text-two' ).toggleClass( 'hide-not-hovered hovered' );
+			$( '.context-default' ).toggleClass( 'hovered hide-not-hovered' );
+	});
+
+	$( '.three.layer h4' ).hover( function(){
+			$( '.text-three' ).toggleClass( 'hovered hide-not-hovered' );
+			$( '.context-default' ).toggleClass( 'hide-not-hovered hovered' );
+	},function(){
+			$( '.text-three' ).toggleClass( 'hide-not-hovered hovered' );
+			$( '.context-default' ).toggleClass( 'hovered hide-not-hovered' );
+	});
+	
 });
