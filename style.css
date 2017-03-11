@@ -2704,6 +2704,9 @@ hr.line {
 	.on-boarding-page-1 {
 	    padding: 40px 0;
 	}
+	.on-boarding-page-2 {
+		padding: 40px 5% 3%;
+	}
 	.on-boarding-page .entry .entry-content h2,
 	.on-boarding-page-3 h2 {
 		margin-bottom: 24px;
