@@ -2635,3 +2635,14 @@ hr.line {
 	background: #fff;
 	color: #333;
 }
+.on-boarding-page-3 .widget:nth-child(3) h4 {
+	color: #399CA9;
+	font-size: 26px;
+	border-bottom: 1px solid #ddd;
+	letter-spacing: 1px;
+	padding-bottom: 18px;
+	margin-bottom: 40px;
+	text-align: center;
+	font-weight: 400;
+	line-height: 1.4;
+}
