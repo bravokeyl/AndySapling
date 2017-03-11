@@ -2450,7 +2450,7 @@ p.comment-form-comment {
 	padding: 80px 40px 40px;
   background-color: #fff;
 }
-.entry-content .triangle-wrap .three.layer > h4 {
+.triangle-wrap .three.layer > h4 {
     color: #444;
 }
 
@@ -2473,8 +2473,8 @@ p.comment-form-comment {
   transition: all 0.2s ease-in-out;
 }
 
-.entry-content .triangle-wrap > h4,
-.entry-content .triangle-wrap .layer > h4 {
+.triangle-wrap > h4,
+.triangle-wrap .layer > h4 {
   color: #fff;
   text-transform: capitalize;
   display: inline-block;
@@ -2491,16 +2491,13 @@ p.comment-form-comment {
   opacity: 0.85;
   cursor: pointer;
 }
-
-.entry-content .triangle-wrap .one.layer > h4 {
+.triangle-wrap .one.layer > h4 {
   padding: 133px 0 50px;
 }
-
-.entry-content .triangle-wrap .two.layer > h4 {
+.triangle-wrap .two.layer > h4 {
   padding: 50px 145px 53px;
 }
-
-.entry-content .triangle-wrap .three.layer > h4 {
+.triangle-wrap .three.layer > h4 {
   padding: 40px 200px;
 }
 .one.layer {
