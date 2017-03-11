@@ -2460,6 +2460,10 @@ p.comment-form-comment {
     z-index: 9;
     height: 100%;
 }
+.on-boarding-page-2 .wrap {
+    position: relative;
+    z-index: 99;
+}
 .triangle-wrap .three.layer > h4 {
     color: #444;
 }
