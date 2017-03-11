@@ -2622,6 +2622,8 @@ hr.line {
 }
 .on-boarding-page-3 h2 {
 	color: #fff;
+	border-bottom: 2px solid #fff;
+	border-top: 2px solid #fff;
 }
 .on-boarding-page-3 .widget:first-child,
 .on-boarding-page-3 .widget:nth-child(2){
