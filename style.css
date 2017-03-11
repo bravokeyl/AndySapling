@@ -2422,3 +2422,9 @@ p.comment-form-comment {
 .on-boarding-page-1 .widget:first-child {
 	margin-left: 0px;
 }
+.on-boarding-page-1 .widget {
+	padding: 40px;
+  border: 1px solid rgba(177, 177, 177, 0.51);
+	background: #fff;
+	color: #333;
+}
