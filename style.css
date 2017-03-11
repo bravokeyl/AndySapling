@@ -2432,4 +2432,10 @@ p.comment-form-comment {
 	color: #52b3bd;
 	text-align: center;
 	font-size: 24px;
+	border-bottom: 1px solid #ddd;
+	letter-spacing: 1px;
+	padding-bottom: 18px;
+	margin-bottom: 40px;
+	text-align: center;
+	line-height: 1.4;
 }
