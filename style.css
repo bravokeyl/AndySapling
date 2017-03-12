@@ -1003,7 +1003,7 @@ img.stretch {
 .icon {
 	font-size: 60px;
 	margin: 0 0 20px;
-	color: #52c0cb;
+	color: #00b2e0;
 }
 
 
@@ -2382,6 +2382,22 @@ p.comment-form-comment {
 }
 .front-page-logos .widget-title {
 	text-align: center;
+	font-size: 18px;
+}
+.front-page-1 h2 {
+	color: #424b56;
+	font-weight: 500;
+}
+.front-page-1 h5 {
+	margin-top: 24px;
+}
+.before-footer .button {
+	background-color: #00b2e0;
+}
+.home .enews-widget {
+	display: none;
+	visibility: hidden;
+	opacity: 0;
 }
 .client-logos {
 	align-items: center;
