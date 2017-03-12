@@ -377,6 +377,10 @@ function showcase_remove_entry_footer() {
 
 }
 
+remove_action( 'genesis_entry_footer', 'genesis_entry_footer_markup_open', 5 );
+remove_action( 'genesis_entry_footer', 'genesis_post_meta' );
+remove_action( 'genesis_entry_footer', 'genesis_entry_footer_markup_close', 15 );
+
 //* Display author box on single posts
 add_filter( 'get_the_author_genesis_author_box_single', '__return_false' );
 
