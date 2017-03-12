@@ -43,9 +43,9 @@ function bk_bottom_page_widgets() {
      'before' => '<div id="on-boarding-page-3" class="on-boarding-page-3 front-page-2 flexible-widget-area"><div class="wrap"><div class="flexible-widgets widget-area">',
      'after'  => '</div></div></div>',
    ) );
-   genesis_widget_area( 'on-boarding-page-4', array(
-     'before' => '<div id="on-boarding-page-4" class="on-boarding-page-4 front-page-2 flexible-widget-area"><div class="wrap"><div class="flexible-widgets widget-area">',
-     'after'  => '</div></div></div>',
-   ) );
+  //  genesis_widget_area( 'on-boarding-page-4', array(
+  //    'before' => '<div id="on-boarding-page-4" class="on-boarding-page-4 front-page-2 flexible-widget-area"><div class="wrap"><div class="flexible-widgets widget-area">',
+  //    'after'  => '</div></div></div>',
+  //  ) );
 }
 genesis();
