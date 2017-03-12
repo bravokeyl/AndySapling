@@ -182,7 +182,9 @@ h6,
 	letter-spacing: 0.1em;
 	font-weight: 500;
 }
-
+.widgettitle {
+	text-transform: none;
+}
 p {
 	margin: 0 0 1.625em;
 	padding: 0;
@@ -1190,6 +1192,7 @@ img.stretch {
 	font-weight: 700;
 	line-height: 1.2;
 	margin: 0 auto;
+	text-transform: uppercase;
 }
 
 .site-title a {
@@ -2692,6 +2695,7 @@ hr.line {
   font-size: 26px;
   letter-spacing: 2px;
 }
+
 @media only screen and (max-width: 767px){
 	.client-logos {
 		flex-wrap: wrap;
