@@ -2715,6 +2715,12 @@ hr.line {
 .product-page .button {
 	background-color: #00b2e0;
 }
+.product-page .widget img {
+	-ms-box-shadow: 0px 0px 1rem 0px rgba(0,0,0,0.26);
+	-moz-box-shadow: 0px 0px 1rem 0px rgba(0,0,0,0.26);
+	-webkit-box-shadow: 0px 0px 1rem 0px rgba(0,0,0,0.26);
+	box-shadow: 0px 0px 1rem 0px rgba(0,0,0,0.26);
+}
 @media only screen and (max-width: 767px){
 	.client-logos {
 		flex-wrap: wrap;
