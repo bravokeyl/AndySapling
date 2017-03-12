@@ -2229,7 +2229,7 @@ p.comment-form-comment {
 .sidebar .widget {
 	border-bottom: 1px solid #f2f2f2;
 	margin-bottom: 40px;
-	padding-bottom: 40px;
+	padding-bottom: 0px;
 }
 
 .sidebar .widget:last-child {
