@@ -2254,6 +2254,9 @@ p.comment-form-comment {
 	.before-footer {
 		padding: 100px 0 50px;
 	}
+	.single-post .before-footer {
+		padding: 100px 0;
+	}
 
 	.before-footer .enews form {
 		margin-left: -10px;
