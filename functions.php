@@ -378,7 +378,7 @@ function showcase_remove_entry_footer() {
 }
 
 //* Display author box on single posts
-//add_filter( 'get_the_author_genesis_author_box_single', '__return_true' );
+add_filter( 'get_the_author_genesis_author_box_single', '__return_false' );
 
 
 /* ==========================================================================
