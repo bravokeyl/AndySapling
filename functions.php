@@ -405,3 +405,9 @@ function bk_sapling_footer(){
 		'after'  => '</div></div>',
 	) );
 }
+
+
+add_filter( 'genesis_search_text', 'sp_search_text' );
+function sp_search_text( $text ) {
+	return esc_attr( 'Search Resources...' );
+}
