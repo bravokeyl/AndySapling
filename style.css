@@ -2394,7 +2394,8 @@ p.comment-form-comment {
 	background-color: #00b2e0;
 }
 .home .enews-widget,
-.on-boarding-page .enews-widget {
+.on-boarding-page .enews-widget,
+.product-page .enews-widget {
 	display: none;
 	visibility: hidden;
 	opacity: 0;
