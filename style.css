@@ -2733,6 +2733,56 @@ hr.line {
 .single-post input[type="submit"] {
 	background-color: #00b2e0;
 }
+
+
+/* Banner ads */
+.banner-widget-img img {
+    border-radius: 50%;
+    border: 3px solid #fff;
+    padding: 0px;
+    background: #fff;
+}
+
+.banner-widget-img {
+    text-align: center;
+    position: relative;
+    background: #00b2e2;
+}
+
+.sidebar .banner-widget-img .widget-title {
+    background: #00B2E2;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    margin: 20px auto 28px;
+    text-transform: uppercase;
+    font-weight: 400;
+    display: inline-block;
+    letter-spacing: 3px;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+    width: 80%;
+}
+
+.banner-widget-img a.button {
+    display: block;
+}
+
+.banner-widget-img .banner-description {
+    background: #303030;
+    color: #fff;
+    width: 100%;
+    padding: 80px 20px 20px;
+    margin: -60px 0 0;
+}
+
+.banner-widget-img .sub-title {
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
 @media only screen and (max-width: 767px){
 	.client-logos {
 		flex-wrap: wrap;
