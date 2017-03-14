@@ -2782,7 +2782,7 @@ hr.line {
     padding: 80px 20px 20px;
     margin: -60px 0 0;
 }
-.enews-widget .button {
+.enews-widget input[type="submit"] {
 	 background: #00b2e0;
 }
 .banner-widget-img .sub-title {
