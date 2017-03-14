@@ -157,7 +157,7 @@
 }
 
 .testimonial-source {
-	max-width: 200px;
+	max-width: 300px;
 	margin: 40px auto;
 	text-align: left;
 }
@@ -188,4 +188,10 @@
 }
 .icon.ion-ios-navigate-outline:before {
   transform: rotate(45deg);
+}
+.bk-testimonial-name {
+	margin-bottom: 0px;
+}
+.bk-testimonial-title {
+	font-size: 15px;
 }
