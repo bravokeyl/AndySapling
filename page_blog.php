@@ -18,6 +18,11 @@ function bk_archive_post_class( $classes ) {
 }
 
 add_filter( 'post_class', 'bk_archive_post_class' );
+add_action( 'genesis_after_endwhile', 'bk_posts_loadmore' );
+function bk_posts_loadmore(){
+	echo do_shortcode([ajax_load_more post_type="post" repeater="default" button_label="Load more..."]);
+}
+
 
 add_action( 'genesis_entry_header', 'genesis_do_post_image', 8 );
 genesis();
