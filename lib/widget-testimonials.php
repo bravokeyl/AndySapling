@@ -144,7 +144,7 @@ class Showcase_Testimonial_Widget extends WP_Widget {
                         <div class="testimonial-source">
                             <?php if( has_post_thumbnail() ) : echo $image; endif; ?>
                             <h5 class="bk-testimonial-name"><?php echo $name; ?></h5>
-                            <span class="bk-testimonial-title"><?php echo get_post_meta( $object->ID, '_bk_testimonial_title', true );?></span>
+                            <span class="bk-testimonial-title"><?php echo get_post_meta( get_the_ID(), '_bk_testimonial_title', true );?></span>
                         </div>
                     </li>
 
