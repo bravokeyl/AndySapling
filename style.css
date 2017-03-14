@@ -2794,7 +2794,7 @@ hr.line {
 		flex-wrap: wrap;
 	}
 	.client-logos img {
-	    max-width: 90px;
+	    max-width: 80px;
 	}
 }
 @media only screen and (max-width: 800px) {
