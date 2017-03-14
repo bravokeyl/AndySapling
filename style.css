@@ -2727,13 +2727,13 @@ hr.line {
 	box-shadow: 0px 0px 1rem 0px rgba(0,0,0,0.26);
 }
 .single-post .widget,
-.page-template-page_blog .widget,
-.page-template-page_team .widget {
+.page-template-page_blog .before-footer .widget,
+.page-template-page_team .before-footer .widget {
 	display: none;
 }
 .single-post .widget.enews-widget,
-.page-template-page_blog .widget.enews-widget,
-.page-template-page_team .widget.enews-widget  {
+.page-template-page_blog .before-footer .widget.enews-widget,
+.page-template-page_team .before-footer .widget.enews-widget  {
 	display: block;
 }
 .single-post input[type="submit"] {
