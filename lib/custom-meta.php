@@ -10,7 +10,7 @@ function bk_post_meta_boxes_setup() {
 function bk_add_post_meta_boxes() {
 	add_meta_box(
     'bk-testimonial-title',      // Unique ID
-    esc_html__( 'Add gallery', 'hdsl' ),    // Title
+    esc_html__( 'Testimonial Title', 'hdsl' ),    // Title
     'bk_testimonial_meta_box',   // Callback function
     'testimonials',         // Admin page (or post type)
     'normal',         // Context
@@ -24,7 +24,7 @@ function bk_testimonial_meta_box($object, $box) {
   <?php wp_nonce_field( basename( __FILE__ ), 'bk_testimonial_nonce' ); ?>
 
   <p>
-  	<label for="bk-testimonial-title"><?php _e( "Add ID's of images to the gallery.", 'hdsl' ); ?></label>
+  	<label for="bk-testimonial-title"><?php _e( "Add title of the person.", 'hdsl' ); ?></label>
     <br />
     <?php
     $field_value = get_post_meta( $object->ID, '_bk_testimonial_title', true );
