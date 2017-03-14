@@ -2720,7 +2720,7 @@ hr.line {
 }
 .product-page .widget img,
 .img-bshadow,
-.home .front-page-2 {
+.home .front-page-2 img {
 	-ms-box-shadow: 0px 0px 1rem 0px rgba(0,0,0,0.26);
 	-moz-box-shadow: 0px 0px 1rem 0px rgba(0,0,0,0.26);
 	-webkit-box-shadow: 0px 0px 1rem 0px rgba(0,0,0,0.26);
