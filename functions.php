@@ -15,6 +15,7 @@ include_once( get_stylesheet_directory() . '/lib/page-header.php' );
 //* Testimonials
 include_once( get_stylesheet_directory() . '/lib/testimonials.php' );
 include_once( get_stylesheet_directory() . '/lib/widget-testimonials.php' );
+include_once( get_stylesheet_directory() . '/lib/custom-meta.php' );
 
 //* Team
 include_once( get_stylesheet_directory() . '/lib/team.php' );
