@@ -177,3 +177,15 @@
  .front-page-4 .widget:nth-of-type(1) {
  	text-align: center;
  }
+
+.front-page-hero .button {
+	padding: 14px 41px 12px;
+}
+
+.icon {
+ font-size: 150px;
+ line-height: 1;
+}
+.icon.ion-ios-navigate-outline:before {
+  transform: rotate(45deg);
+}

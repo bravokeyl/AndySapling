@@ -2718,16 +2718,22 @@ hr.line {
 .product-page .button {
 	background-color: #00b2e0;
 }
-.product-page .widget img {
+.product-page .widget img,
+.img-bshadow,
+.home .front-page-2 {
 	-ms-box-shadow: 0px 0px 1rem 0px rgba(0,0,0,0.26);
 	-moz-box-shadow: 0px 0px 1rem 0px rgba(0,0,0,0.26);
 	-webkit-box-shadow: 0px 0px 1rem 0px rgba(0,0,0,0.26);
 	box-shadow: 0px 0px 1rem 0px rgba(0,0,0,0.26);
 }
-.single-post .widget {
+.single-post .widget,
+.page-template-page_blog .widget,
+.page-template-page_team .widget {
 	display: none;
 }
-.single-post .widget.enews-widget  {
+.single-post .widget.enews-widget,
+.page-template-page_blog .widget.enews-widget,
+.page-template-page_team .widget.enews-widget  {
 	display: block;
 }
 .single-post input[type="submit"] {
