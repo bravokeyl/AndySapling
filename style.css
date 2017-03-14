@@ -2772,6 +2772,7 @@ hr.line {
 
 .banner-widget-img a.button {
     display: block;
+		background: #00b2e2;
 }
 
 .banner-widget-img .banner-description {
