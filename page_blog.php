@@ -20,7 +20,7 @@ function bk_archive_post_class( $classes ) {
 add_filter( 'post_class', 'bk_archive_post_class' );
 add_action( 'genesis_after_endwhile', 'bk_posts_loadmore' );
 function bk_posts_loadmore(){
-	echo do_shortcode('[ajax_load_more post_type="post" button_label="Load more..."]');
+	// echo do_shortcode('[ajax_load_more post_type="post" button_label="Load more..."]');
 }
 
 
